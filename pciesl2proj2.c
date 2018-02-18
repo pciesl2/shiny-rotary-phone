@@ -149,15 +149,6 @@ int main (int argc, char** argv)
         }
         for(i = 0; i<input_sz; i++)
         {
-            switch (isOpeningSymbol( input[i] ))
-            {
-                case TRUE:
-                
-            }
-            
-            
-            
-            
             if(isOpeningSymbol( input[i] ))
             {
                 push (&st1, input[i], debug);
