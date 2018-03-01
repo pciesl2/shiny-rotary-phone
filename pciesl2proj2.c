@@ -148,7 +148,7 @@ int main (int argc, char** argv)
             a++;
         }
         for(i = 0; i<input_sz; i++)
-        {
+        { 
             if(isOpeningSymbol( input[i] ))
             {
                 push (&st1, input[i], debug);
